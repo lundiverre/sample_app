@@ -13,7 +13,13 @@ group :production do
 end
 group :development, :test do
   gem 'sqlite3'
+  gem 'rspec' 
   gem 'rspec-rails'
+  gem 'cucumber'
+  gem 'cucumber-rails'
+  gem 'webrat'
+  gem 'nokogiri' 
+  gem 'ZenTest' 
 end
 # Use unicorn as the web server
 # gem 'unicorn'
